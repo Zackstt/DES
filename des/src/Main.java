@@ -8,7 +8,7 @@ public class Main {
         int option = 0;
         while (!(option == 1 || option == 2)) {
             String optionPrompt = "Select between the options: \n 1. Encrypt \n 2. Decrypt \n";
-            System.out.println(optionPrompt);1
+            System.out.println(optionPrompt);
             option = userInput.nextInt();
         }
 
